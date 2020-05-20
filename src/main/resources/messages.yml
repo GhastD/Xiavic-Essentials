@@ -52,7 +52,7 @@ TpToggleOn: "You have ENABLED teleport requests to you."
 RTP: "You have been randomly teleported. Don't have too much fun!"
 Tp_Failed: "Teleportation failed!"
 
-# utils.Listeners
+# utils.listener
 Back: "Returning to your last location"
 BackNone: "You do not have a recent location to go back to"
 ClearInventory: "&7Your inventory has just been cleared. Hopefully you didn't have any God-like items on you!"
