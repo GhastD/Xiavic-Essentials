@@ -1,8 +1,7 @@
-package com.github.xiavic.essentials.Commands.StaffCmds.noncheat.teleport;
+package com.github.xiavic.essentials.commands.staff.noncheat.teleport;
 
 import com.github.xiavic.essentials.Main;
-import com.github.xiavic.essentials.Utils.Listeners.TeleportHandler;
-import com.github.xiavic.essentials.Utils.Utils;
+import com.github.xiavic.essentials.utils.Utils;
 import com.github.xiavic.lib.teleport.ITeleportHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;

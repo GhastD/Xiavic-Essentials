@@ -1,7 +1,7 @@
-package com.github.xiavic.essentials.Utils.Tpa;
+package com.github.xiavic.essentials.utils.teleport;
 
 import com.github.xiavic.essentials.Main;
-import com.github.xiavic.essentials.Utils.Utils;
+import com.github.xiavic.essentials.utils.Utils;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
@@ -21,7 +21,7 @@ public class TpaRequest {
     }
 
     public void sendRequest() {
-        this.origin.sendMessage(Utils.chat(Main.messages.getString("Tpa").replace("%target%", target.getDisplayName())));
+        this.origin.sendMessage(Utils.chat(Main.messages.getString("teleport").replace("%target%", target.getDisplayName())));
         this.target.sendMessage(Utils.chat(Main.messages.getString("Tpa_Request").replace("%sender%", origin.getDisplayName())));
     }
 
